@@ -75,8 +75,6 @@ const WeatherCard = ({ city }) => {
     fetchWeather();
   }, [city]);
 
-  console.log(currentWeather, forecastWeather);
-
   const temp = (c) => {
     const t = Math.round(c);
 
